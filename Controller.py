@@ -60,7 +60,7 @@ def submit():
         if selected_option==correct_option:
             correct_count=correct_count+1
     correct_count=str(correct_count) 
-    return ("<br>"+"<br>"+"<br>"+"<br>"+"<br>"+'<h1 style="text-align:center;">'+p+correct_count+'</h1>')
+    return ('<h1 style="text-align:center; background-color:red;">'+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"</h1>"+'<h1 style="text-align:center; background-color:yellow;">'+p+correct_count+'</h1>'+'<h1 style="text-align:center; background-color:red;">'+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"</h1>")
 
     
 
