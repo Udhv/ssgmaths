@@ -52,7 +52,7 @@ def quiz():
 def submit():
     
     p="Your Score is"
-    o="\nYour Incorrect Score is "
+    
     correct_count=0
     incorrect_count=0
     for question in question_list:
@@ -65,7 +65,7 @@ def submit():
             incorrect_count+=1
     correct_count=str(correct_count)
     incorrect_count=str(incorrect_count)
-    return ("<br>"+"<br>"+"<br>"+"<br>"+"<br>"+'<h1 style="text-align:center;">'+p+correct_count+o+incorrect_count+'</h1>')
+    return ("<br>"+"<br>"+"<br>"+"<br>"+"<br>"+'<h1 style="text-align:center;">'+p+correct_count+incorrect_count+'</h1>')
 
     
 
