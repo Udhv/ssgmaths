@@ -63,7 +63,8 @@ def submit():
             correct_count=correct_count+1
         else:
             incorrect_count+=1
-    correct_count=str(correct_count) 
+    correct_count=str(correct_count)
+    incorrect_count=str(incorrect_count)
     return ("<br>"+"<br>"+"<br>"+"<br>"+"<br>"+'<h1 style="text-align:center;">'+p+correct_count+o+incorrect_count+'</h1>')
 
     
