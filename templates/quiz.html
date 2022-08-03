@@ -9,7 +9,7 @@
 </head>
 <body class="w3-theme-l3" style="border: 15px">
 
-	<h1 Style="text-align: center;border: 5px solid green" class="w3-theme-d4"> Maths <br> Web Base Quiz</h1>
+	<h1 Style="text-align: center;border: 5px solid yellow" class="w3-theme-d4"> Maths <br> Web Base Quiz</h1>
 		<hr />
 	
 	
@@ -18,8 +18,8 @@
 			{% for question in question_list %}
 			<h2></h2>
 		
-		<h2 class="w3-theme" style="text-align: center;border: 5px solid green;">Q. {{loop.index}} {{question.question}}
-		<h4 class="w3-theme-l1" style="text-align: center;border: 5px solid green;"><span style="font-size: 35px;"><input type="radio" style="font-size:300px" name="{{question.q_id}}" value="{{question.option1}}">{{question.option1}}<br>
+		<h2 class="w3-theme" style="text-align: center;border: 5px solid yellow;">Q. {{loop.index}} {{question.question}}
+		<h4 class="w3-theme-l1" style="text-align: center;border: 5px solid yellow;"><span style="font-size: 35px;"><input type="radio" style="font-size:300px" name="{{question.q_id}}" value="{{question.option1}}">{{question.option1}}<br>
 		<input type="radio" name="{{question.q_id}}" value="{{question.option2}}" >{{question.option2}}<br>			
 		<input type="radio" name="{{question.q_id}}" value="{{question.option3}}">{{question.option3}}<br>
 		<input type="radio" name="{{question.q_id}}" value="{{question.option4}}">{{question.option4}}</h4></h2>
@@ -30,7 +30,7 @@
 			<br><br>
 			
  <h1 style="text-align: center; font-size: 100px;">	
-			<input type="submit" name=" submitform" value="Submit" class="w3-theme" style="border : 7px solid green">
+			<input type="submit" name=" submitform" value="Submit" class="w3-theme" style="border : 7px solid yellow">
 			</h1>
 			<br>
 			<br>
