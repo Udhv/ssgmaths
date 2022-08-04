@@ -1,7 +1,7 @@
 q1=[
-    [1,"If Rank(A) = 2 and Rank(3) = 3 then Rank (AB) is : ","A.6","B.5","C.3","D.Data inadequate",4],
+    [1,"If Rank(A) = 2 and Rank(B) = 3 then Rank (AB) is : ","A.6","B.5","C.3","D.Data inadequate",4],
     [2,"If A and B are symmetric matrices of the same order, then","A.AB is a symmetric matrix","B.A-B is a skew-symmetric matrix","C.AB + BA is a symmetric matrix","D.AB – BA is a symmetric matrix",3],
-    [3,"If A is a square matrix, then A – A’ is A","A.diagonal matrix","B.skew-symmetric matrix","C.ymmetric matrix","D.none of these",2],
+    [3,"If A is a square matrix, then A – A’ is A","A.diagonal matrix","B.skew-symmetric matrix","C.Symmetric matrix","D.none of these",2],
     [4,"If A is any square matrix, then which of the following is skew-symmetric ?","A.A + A^T","B.A – A^T","C.A*A^T","D.A^T*A",2],
     [5,"If a matrix A is both symmetric and skew-symmetric, then","A.A is a diagonal matrix","B.A is a zero matrix","C.A is a scalar matrix","D.A is a square matrix",2],
     [6,"if f (x) = 2x and g (x) = (x^2)/2 + 1, then’which of the following can be a discontinuous function","A. f(x) + g(x)","B.f(x) – g(x)","C.(x).g(x)","D.g(x)/f(x)",4],
